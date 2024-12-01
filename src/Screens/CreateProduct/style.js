@@ -3,12 +3,7 @@ import {StyleSheet} from 'react-native';
 const style = (width, height, isPortrait) =>
   StyleSheet.create({
     finalBtn: {
-      // position:'absolute',
-      // bottom:-32,
-      // width:'100%',
-      // padding:15,
-      // backgroundColor:'#fff',
-      // alignSelf:'center',
+      
     },
     edit: {
       width: 25,
@@ -44,7 +39,6 @@ const style = (width, height, isPortrait) =>
       justifyContent: 'space-between',
       flexDirection: 'row',
       alignItems: 'center',
-      // backgroundColor:'#c6c6c6',
       borderBottomWidth: 1,
       borderBottomColor: '#c6ab80',
     },

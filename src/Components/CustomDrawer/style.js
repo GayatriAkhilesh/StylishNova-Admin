@@ -37,7 +37,6 @@ const style = (width, height, isPortrait) =>
       width:'100%',
       padding:10,
       marginTop:20,
-      // backgroundColor:'#ff2',
       borderBottomWidth:StyleSheet.hairlineWidth,
       borderBottomColor:'#c6ab80',
     },

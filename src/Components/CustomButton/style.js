@@ -7,7 +7,6 @@ const style = (width, height, isPortrait) =>
         justifyContent:'center',
         width:'90%',
         padding:10,
-        // borderRadius:28,
         backgroundColor:'#48301f',
         alignSelf:'center',
         marginVertical:18,

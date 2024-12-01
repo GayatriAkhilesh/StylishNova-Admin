@@ -10,14 +10,12 @@ const style = (width, height, isPortrait) =>
       width: 120,
       height: 120,
       resizeMode: 'contain',
-      // borderRadius: 40,
       overflow: 'hidden',
     },
     userContainer: {
       marginVertical:2,
       marginHorizontal:2,
       justifyContent:"space-evenly",
-      // borderRadius:15,
       width:'49%',
       height:height * 0.35,
       backgroundColor:'#fff',
@@ -35,7 +33,6 @@ const style = (width, height, isPortrait) =>
       height:'50%'
     },
     textsView:{
-      // backgroundColor:'#ff2',
       marginLeft:10,
       justifyContent:'space-evenly',
       overflow:'hidden',
@@ -69,11 +66,9 @@ const style = (width, height, isPortrait) =>
     },
     editDlt:{
       flexDirection:'row',
-      // backgroundColor:'#ff2',
       alignItems:'center',
       justifyContent:'space-around',
-      // borderColor:'#c6ab80',
-      // borderWidth:1,
+      
     }
   });
 

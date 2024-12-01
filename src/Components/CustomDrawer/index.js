@@ -119,17 +119,14 @@ const CustomDrawer = () => {
   const handleTouch = (itemData) => {
     if (itemData.navigationTo) {
       if (typeof itemData.navigationTo === 'string') {
-        // Simple navigation to a screen name
         navigation.navigate(itemData.navigationTo);
       } else {
-        // Nested navigation structure
         navigation.navigate(itemData.navigationTo.name, {
           screen: itemData.navigationTo.params.screen,
           params: itemData.navigationTo.params.params,
         });
       }
     } else if (itemData.onPress) {
-      // Handle custom actions like signout
       itemData.onPress();
     }
   };

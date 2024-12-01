@@ -10,7 +10,6 @@ const style = (width, height, isPortrait) =>
       width: 80,
       height: 80,
       resizeMode: 'contain',
-      // borderRadius: 40,
       overflow: 'hidden',
     },
     userContainer: {

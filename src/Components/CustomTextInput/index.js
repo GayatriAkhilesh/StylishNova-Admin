@@ -33,7 +33,6 @@ const CustomTextInput = props => {
         alignSelf: 'center',
         alignItems: icon ? 'center' : 'baseline',
         justifyContent: 'space-between',
-        // backgroundColor:'#fff',
       }}>
       <TextInput
         selectionColor={'#48301f'}

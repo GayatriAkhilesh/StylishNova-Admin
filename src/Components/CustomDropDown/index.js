@@ -52,7 +52,7 @@ const CustomDropDown = props => {
     return (
       <FlatList
         data={data}
-        keyExtractor={(item, index) => index.toString()} // Use index as key
+        keyExtractor={(item, index) => index.toString()}
         renderItem={({item, index}) => {
           if (item.name === selected) {
             return null;
@@ -60,7 +60,7 @@ const CustomDropDown = props => {
             return (
               <TouchableOpacity
                 onPress={() => {
-                  setData(item.name); // Pass item.name instead of entire object
+                  setData(item.name); 
                   setSelected(item.name);
                   setActiveSections([]);
                 }}

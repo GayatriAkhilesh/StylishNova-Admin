@@ -87,14 +87,12 @@ const Offers = () => {
             objArray.push(result);
           });
           setOffers(objArray);
-          // console.warn(objArray)
         }
       });
   };
 
   const handleCreate = async () => {
     if (head !== '' && subhead !== '' && offer !== '' && offercode !== '') {
-      // const responseUri = await uploadImage(uploadUri);
       const product = {
         head: head,
         subhead: subhead,
@@ -151,7 +149,6 @@ const Offers = () => {
       offer !== '' &&
       offercode !== ''
     ) {
-      // const responseUri = uploadUri.includes('file://') ? await uploadImage(uploadUri) : uploadUri ;
       const product = {
         head: head,
         subhead: subhead,

@@ -86,7 +86,7 @@ const CreateProduct = () => {
     if (data && data.categoryId) {
       const selectedCategory = objArray.find(ele => ele.id === data.categoryId);
       if (selectedCategory) {
-        setCategory(selectedCategory); // Set the category as an object
+        setCategory(selectedCategory); 
       }
     }
   };
@@ -125,7 +125,6 @@ const CreateProduct = () => {
         backgroundColor: 'red',
         textColor: 'white',
       });
-      return; // Prevent creating the product if category is not selected
     }
 
 
